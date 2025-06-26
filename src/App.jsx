@@ -6,11 +6,12 @@ import DeleteAppointment from './components/DeleteAppointment';
 function App() {
   const [view, setView] = useState("agendar");
 
+
   return (
     <div className="flex min-h-screen">
       <aside className="w-1/4 bg-gray-100 p-4 flex flex-col items-center">
         <img
-          src="/imss_logo.png"
+          src="./IMSS_LOGO.png"
           alt="IMSS"
           className="w-24 mb-6"
         />
